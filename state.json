@@ -1,75 +1,75 @@
 {
  "agents": {
   "Momentum": {
-   "bankroll": 47.17,
-   "wins": 10,
-   "losses": 5,
-   "pnl": 2.35,
+   "bankroll": 31.15,
+   "wins": 14,
+   "losses": 10,
+   "pnl": -10.88,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
-    "call": "BUY NO",
-    "reason": "5m move -$18",
-    "time": "2026-11-05T07:45:59.604Z"
+    "ticker": "KXBTC15M-26NOV051045-45",
+    "call": "BUY YES",
+    "reason": "5m move +$218",
+    "time": "2026-11-05T15:36:50.975Z"
    }
   },
   "MeanReversion": {
-   "bankroll": 48.89,
-   "wins": 6,
-   "losses": 5,
-   "pnl": 4.07,
+   "bankroll": 56.79,
+   "wins": 8,
+   "losses": 7,
+   "pnl": 18.23,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
+    "ticker": "KXBTC15M-26NOV051045-45",
     "call": "BUY YES",
-    "reason": "spot $186 below 60m SMA",
-    "time": "2026-11-05T07:45:59.604Z"
+    "reason": "spot $1397 below 60m SMA",
+    "time": "2026-11-05T15:36:50.975Z"
    }
   },
   "PriceEdge": {
-   "bankroll": 51.23,
-   "wins": 2,
-   "losses": 2,
-   "pnl": 6.41,
+   "bankroll": 56.11,
+   "wins": 4,
+   "losses": 5,
+   "pnl": 11.29,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
+    "ticker": "KXBTC15M-26NOV051045-45",
     "call": "SKIP",
-    "reason": "no edge: P(up)=42%, yes 48c/no 53c",
-    "time": "2026-11-05T07:45:59.604Z"
+    "reason": "no edge: P(up)=65%, yes 68c/no 33c",
+    "time": "2026-11-05T15:36:50.975Z"
    }
   },
   "Trend1h": {
-   "bankroll": 18.11,
-   "wins": 3,
-   "losses": 12,
-   "pnl": -26.71,
+   "bankroll": 9.44,
+   "wins": 5,
+   "losses": 19,
+   "pnl": -34.34,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
+    "ticker": "KXBTC15M-26NOV051045-45",
     "call": "BUY NO",
-    "reason": "1h trend -$65",
-    "time": "2026-11-05T07:45:59.604Z"
+    "reason": "1h trend -$2945",
+    "time": "2026-11-05T15:36:50.975Z"
    }
   },
   "Contrarian": {
-   "bankroll": 36.28,
-   "wins": 2,
-   "losses": 6,
-   "pnl": -8.54,
+   "bankroll": 35.04,
+   "wins": 3,
+   "losses": 9,
+   "pnl": -5.97,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
-    "call": "SKIP",
-    "reason": "crowd balanced",
-    "time": "2026-11-05T07:45:59.604Z"
+    "ticker": "KXBTC15M-26NOV051045-45",
+    "call": "BUY NO",
+    "reason": "crowd heavy YES, fade",
+    "time": "2026-11-05T15:36:50.976Z"
    }
   },
   "Leader": {
-   "bankroll": 33.45,
-   "wins": 6,
-   "losses": 6,
-   "pnl": -11.37,
+   "bankroll": 19.55,
+   "wins": 9,
+   "losses": 12,
+   "pnl": -23.18,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
-    "call": "BUY NO",
-    "reason": "chart P(up)=42%, 15m -$202, bots 35% YES [Mo:NO(69%) Me:YES(50%) Tr:NO(25%)] -> NO 61% conf",
-    "time": "2026-11-05T07:45:59.604Z"
+    "ticker": "KXBTC15M-26NOV051045-45",
+    "call": "BUY YES",
+    "reason": "chart P(up)=65%, 15m -$946, bots 68% YES [Mo:YES(58%) Me:YES(53%) Tr:NO(23%) Co:NO(29%)] -> YES 61% conf",
+    "time": "2026-11-05T15:36:50.976Z"
    }
   },
   "Lock": {
@@ -78,15 +78,1489 @@
    "losses": 1,
    "pnl": -3.55,
    "last": {
-    "ticker": "KXBTC15M-26NOV050300-00",
-    "call": "BUY NO",
-    "reason": "LOCK NO: P(up)=1%, spot -$121 vs strike, 3m6s left, ask 93c",
-    "time": "2026-11-05T07:56:53.682Z"
+    "ticker": "KXBTC15M-26NOV051045-45",
+    "call": "WAIT",
+    "reason": "waiting for lock window (calls in last 3-5 min); P(up)=53%, spot +$23 vs strike, 7m7s left",
+    "time": "2026-11-05T15:37:52.519Z"
    }
   }
  },
- "open": [],
+ "open": [
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 0.68,
+   "contracts": 4,
+   "cost": 2.72,
+   "fee": 0.07,
+   "reason": "5m move +$218",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 0.68,
+   "contracts": 9,
+   "cost": 6.12,
+   "fee": 0.14,
+   "reason": "spot $1397 below 60m SMA",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "no",
+   "price": 0.33,
+   "contracts": 3,
+   "cost": 0.99,
+   "fee": 0.05,
+   "reason": "1h trend -$2945",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "no",
+   "price": 0.33,
+   "contracts": 11,
+   "cost": 3.63,
+   "fee": 0.18,
+   "reason": "crowd heavy YES, fade",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.976Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 0.68,
+   "contracts": 3,
+   "cost": 2.04,
+   "fee": 0.05,
+   "reason": "chart P(up)=65%, 15m -$946, bots 68% YES [Mo:YES(58%) Me:YES(53%) Tr:NO(23%) Co:NO(29%)] -> YES 61% conf",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  }
+ ],
  "trades": [
+  {
+   "time": "2026-11-05T15:36:50.976Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 68,
+   "contracts": 3,
+   "cost": 2.04,
+   "fee": 0.05,
+   "reason": "chart P(up)=65%, 15m -$946, bots 68% YES [Mo:YES(58%) Me:YES(53%) Tr:NO(23%) Co:NO(29%)] -> YES 61% conf",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "no",
+   "price": 33,
+   "contracts": 11,
+   "cost": 3.63,
+   "fee": 0.18,
+   "reason": "crowd heavy YES, fade",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "no",
+   "price": 33,
+   "contracts": 3,
+   "cost": 0.99,
+   "fee": 0.05,
+   "reason": "1h trend -$2945",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "reason": "no edge: P(up)=65%, yes 68c/no 33c"
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 68,
+   "contracts": 9,
+   "cost": 6.12,
+   "fee": 0.14,
+   "reason": "spot $1397 below 60m SMA",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.975Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV051045-45",
+   "side": "yes",
+   "price": 68,
+   "contracts": 4,
+   "cost": 2.72,
+   "fee": 0.07,
+   "reason": "5m move +$218",
+   "strike": 76338.76,
+   "close": "2026-11-05T15:45:00Z",
+   "spot": 76472.945
+  },
+  {
+   "time": "2026-11-05T15:36:50.974Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 0.84,
+   "contracts": 2,
+   "cost": 1.68,
+   "fee": 0.02,
+   "result": "no(kalshi)",
+   "pnl": -1.7
+  },
+  {
+   "time": "2026-11-05T15:36:50.871Z",
+   "type": "SETTLE",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 0.17,
+   "contracts": 15,
+   "cost": 2.55,
+   "fee": 0.15,
+   "result": "no(kalshi)",
+   "pnl": 12.3
+  },
+  {
+   "time": "2026-11-05T15:36:50.793Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 0.84,
+   "contracts": 1,
+   "cost": 0.84,
+   "fee": 0.01,
+   "result": "no(kalshi)",
+   "pnl": -0.85
+  },
+  {
+   "time": "2026-11-05T15:36:50.698Z",
+   "type": "SETTLE",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 0.17,
+   "contracts": 22,
+   "cost": 3.74,
+   "fee": 0.22,
+   "result": "no(kalshi)",
+   "pnl": 18.04
+  },
+  {
+   "time": "2026-11-05T15:36:50.625Z",
+   "type": "SETTLE",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 0.17,
+   "contracts": 25,
+   "cost": 4.25,
+   "fee": 0.25,
+   "result": "no(kalshi)",
+   "pnl": 20.5
+  },
+  {
+   "time": "2026-11-05T15:36:50.533Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 0.84,
+   "contracts": 4,
+   "cost": 3.36,
+   "fee": 0.04,
+   "result": "no(kalshi)",
+   "pnl": -3.4
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 84,
+   "contracts": 2,
+   "cost": 1.68,
+   "fee": 0.02,
+   "reason": "chart P(up)=73%, 15m +$248, bots 43% YES [Mo:YES(60%) Me:NO(50%) Pr:NO(40%) Tr:YES(24%) Co:NO(23%)] -> YES 61% conf",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 17,
+   "contracts": 15,
+   "cost": 2.55,
+   "fee": 0.15,
+   "reason": "crowd heavy YES, fade",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 84,
+   "contracts": 1,
+   "cost": 0.84,
+   "fee": 0.01,
+   "reason": "1h trend +$69",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 17,
+   "contracts": 22,
+   "cost": 3.74,
+   "fee": 0.22,
+   "reason": "model P(down)=27% vs ask 17c",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "no",
+   "price": 17,
+   "contracts": 25,
+   "cost": 4.25,
+   "fee": 0.25,
+   "reason": "spot $176 above 60m SMA",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.488Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050900-00",
+   "side": "yes",
+   "price": 84,
+   "contracts": 4,
+   "cost": 3.36,
+   "fee": 0.04,
+   "reason": "5m move +$110",
+   "strike": 79667.68,
+   "close": "2026-11-05T14:00:00Z",
+   "spot": 79766.815
+  },
+  {
+   "time": "2026-11-05T13:49:58.486Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "yes",
+   "price": 0.6,
+   "contracts": 3,
+   "cost": 1.8,
+   "fee": 0.06,
+   "result": "yes(kalshi)",
+   "pnl": 1.14
+  },
+  {
+   "time": "2026-11-05T13:49:58.326Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "no",
+   "price": 0.41,
+   "contracts": 2,
+   "cost": 0.82,
+   "fee": 0.04,
+   "result": "yes(kalshi)",
+   "pnl": -0.86
+  },
+  {
+   "time": "2026-11-05T13:49:58.213Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "yes",
+   "price": 0.6,
+   "contracts": 5,
+   "cost": 3,
+   "fee": 0.09,
+   "result": "yes(kalshi)",
+   "pnl": 1.91
+  },
+  {
+   "time": "2026-11-05T13:42:00.091Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "reason": "no lock in window; P(up)=66%, spot +$36 vs strike, 2m60s left"
+  },
+  {
+   "time": "2026-11-05T13:40:38.040Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "yes",
+   "price": 60,
+   "contracts": 3,
+   "cost": 1.8,
+   "fee": 0.06,
+   "reason": "chart P(up)=56%, 15m +$41, bots 70% YES [Mo:YES(58%) Tr:NO(25%)] -> YES 59% conf",
+   "strike": 79605.96,
+   "close": "2026-11-05T13:45:00Z",
+   "spot": 79621.515
+  },
+  {
+   "time": "2026-11-05T13:40:38.040Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "reason": "crowd balanced"
+  },
+  {
+   "time": "2026-11-05T13:40:38.039Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "no",
+   "price": 41,
+   "contracts": 2,
+   "cost": 0.82,
+   "fee": 0.04,
+   "reason": "1h trend -$184",
+   "strike": 79605.96,
+   "close": "2026-11-05T13:45:00Z",
+   "spot": 79621.515
+  },
+  {
+   "time": "2026-11-05T13:40:38.039Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "reason": "no edge: P(up)=56%, yes 60c/no 41c"
+  },
+  {
+   "time": "2026-11-05T13:40:38.039Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "reason": "near 60m mean"
+  },
+  {
+   "time": "2026-11-05T13:40:38.039Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050845-45",
+   "side": "yes",
+   "price": 60,
+   "contracts": 5,
+   "cost": 3,
+   "fee": 0.09,
+   "reason": "5m move +$103",
+   "strike": 79605.96,
+   "close": "2026-11-05T13:45:00Z",
+   "spot": 79621.515
+  },
+  {
+   "time": "2026-11-05T13:40:38.037Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 0.79,
+   "contracts": 2,
+   "cost": 1.58,
+   "fee": 0.03,
+   "result": "no(kalshi)",
+   "pnl": 0.39
+  },
+  {
+   "time": "2026-11-05T13:40:37.941Z",
+   "type": "SETTLE",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 13,
+   "cost": 2.86,
+   "fee": 0.16,
+   "result": "no(kalshi)",
+   "pnl": -3.02
+  },
+  {
+   "time": "2026-11-05T13:40:37.843Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 0.79,
+   "contracts": 1,
+   "cost": 0.79,
+   "fee": 0.02,
+   "result": "no(kalshi)",
+   "pnl": 0.19
+  },
+  {
+   "time": "2026-11-05T13:40:37.746Z",
+   "type": "SETTLE",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 0.79,
+   "contracts": 4,
+   "cost": 3.16,
+   "fee": 0.05,
+   "result": "no(kalshi)",
+   "pnl": 0.79
+  },
+  {
+   "time": "2026-11-05T13:40:37.649Z",
+   "type": "SETTLE",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 21,
+   "cost": 4.62,
+   "fee": 0.26,
+   "result": "no(kalshi)",
+   "pnl": -4.88
+  },
+  {
+   "time": "2026-11-05T13:40:37.547Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 0.79,
+   "contracts": 4,
+   "cost": 3.16,
+   "fee": 0.05,
+   "result": "no(kalshi)",
+   "pnl": 0.79
+  },
+  {
+   "time": "2026-11-05T12:33:21.658Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 79,
+   "contracts": 2,
+   "cost": 1.58,
+   "fee": 0.03,
+   "reason": "chart P(up)=11%, 15m -$178, bots 41% YES [Mo:NO(57%) Me:YES(53%) Pr:NO(33%) Tr:NO(22%) Co:YES(25%)] -> NO 74% conf",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:33:21.658Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "yes",
+   "price": 22,
+   "contracts": 13,
+   "cost": 2.86,
+   "fee": 0.16,
+   "reason": "crowd heavy NO, fade",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:33:21.658Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 79,
+   "contracts": 1,
+   "cost": 0.79,
+   "fee": 0.02,
+   "reason": "1h trend -$322",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:33:21.658Z",
+   "type": "BUY",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 79,
+   "contracts": 4,
+   "cost": 3.16,
+   "fee": 0.05,
+   "reason": "model P(down)=89% vs ask 79c",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:33:21.658Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "yes",
+   "price": 22,
+   "contracts": 21,
+   "cost": 4.62,
+   "fee": 0.26,
+   "reason": "spot $276 below 60m SMA",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:33:21.657Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050745-45",
+   "side": "no",
+   "price": 79,
+   "contracts": 4,
+   "cost": 3.16,
+   "fee": 0.05,
+   "reason": "5m move -$140",
+   "strike": 79996.89,
+   "close": "2026-11-05T12:45:00Z",
+   "spot": 79887.965
+  },
+  {
+   "time": "2026-11-05T12:27:02.141Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "no lock in window; P(up)=1%, spot -$107 vs strike, 2m58s left"
+  },
+  {
+   "time": "2026-11-05T12:26:41.638Z",
+   "type": "SKIP",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "chart P(up)=1%, 15m -$62, bots 50% YES [Mo:NO(57%) Me:YES(53%) Tr:NO(22%) Co:YES(25%)] -> NO 75% conf — Risk: price extreme/no liquidity"
+  },
+  {
+   "time": "2026-11-05T12:26:41.637Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "crowd heavy NO, fade — Risk: price extreme/no liquidity"
+  },
+  {
+   "time": "2026-11-05T12:26:41.637Z",
+   "type": "SKIP",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "1h trend -$208 — Risk: price extreme/no liquidity"
+  },
+  {
+   "time": "2026-11-05T12:26:41.637Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "no edge: P(up)=1%, yes 3c/no 97c"
+  },
+  {
+   "time": "2026-11-05T12:26:41.637Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "spot $173 below 60m SMA — Risk: price extreme/no liquidity"
+  },
+  {
+   "time": "2026-11-05T12:26:41.637Z",
+   "type": "SKIP",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050730-30",
+   "reason": "5m move -$40 — Risk: price extreme/no liquidity"
+  },
+  {
+   "time": "2026-11-05T12:26:41.636Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 11,
+   "cost": 2.42,
+   "fee": 0.14,
+   "result": "no(kalshi)",
+   "pnl": -2.56
+  },
+  {
+   "time": "2026-11-05T12:26:41.526Z",
+   "type": "SETTLE",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 14,
+   "cost": 3.08,
+   "fee": 0.17,
+   "result": "no(kalshi)",
+   "pnl": -3.25
+  },
+  {
+   "time": "2026-11-05T12:26:41.433Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 6,
+   "cost": 1.32,
+   "fee": 0.08,
+   "result": "no(kalshi)",
+   "pnl": -1.4
+  },
+  {
+   "time": "2026-11-05T12:26:41.306Z",
+   "type": "SETTLE",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 18,
+   "cost": 3.96,
+   "fee": 0.22,
+   "result": "no(kalshi)",
+   "pnl": -4.18
+  },
+  {
+   "time": "2026-11-05T12:26:41.199Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 0.22,
+   "contracts": 17,
+   "cost": 3.74,
+   "fee": 0.21,
+   "result": "no(kalshi)",
+   "pnl": -3.95
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 22,
+   "contracts": 11,
+   "cost": 2.42,
+   "fee": 0.14,
+   "reason": "chart P(up)=44%, 15m +$28, bots 100% YES [Mo:YES(59%) Pr:YES(38%) Tr:YES(23%) Co:YES(27%)] -> YES 62% conf",
+   "strike": 80295.32,
+   "close": "2026-11-05T12:15:00Z",
+   "spot": 80279.495
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 22,
+   "contracts": 14,
+   "cost": 3.08,
+   "fee": 0.17,
+   "reason": "crowd heavy NO, fade",
+   "strike": 80295.32,
+   "close": "2026-11-05T12:15:00Z",
+   "spot": 80279.495
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 22,
+   "contracts": 6,
+   "cost": 1.32,
+   "fee": 0.08,
+   "reason": "1h trend +$92",
+   "strike": 80295.32,
+   "close": "2026-11-05T12:15:00Z",
+   "spot": 80279.495
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "BUY",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 22,
+   "contracts": 18,
+   "cost": 3.96,
+   "fee": 0.22,
+   "reason": "model P(up)=44% vs ask 22c",
+   "strike": 80295.32,
+   "close": "2026-11-05T12:15:00Z",
+   "spot": 80279.495
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "reason": "near 60m mean"
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050715-15",
+   "side": "yes",
+   "price": 22,
+   "contracts": 17,
+   "cost": 3.74,
+   "fee": 0.21,
+   "reason": "5m move +$11",
+   "strike": 80295.32,
+   "close": "2026-11-05T12:15:00Z",
+   "spot": 80279.495
+  },
+  {
+   "time": "2026-11-05T12:00:50.407Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "yes",
+   "price": 0.52,
+   "contracts": 4,
+   "cost": 2.08,
+   "fee": 0.07,
+   "result": "yes(kalshi)",
+   "pnl": 1.85
+  },
+  {
+   "time": "2026-11-05T12:00:50.323Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "no",
+   "price": 0.49,
+   "contracts": 2,
+   "cost": 0.98,
+   "fee": 0.04,
+   "result": "yes(kalshi)",
+   "pnl": -1.02
+  },
+  {
+   "time": "2026-11-05T12:00:50.234Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "yes",
+   "price": 0.52,
+   "contracts": 6,
+   "cost": 3.12,
+   "fee": 0.11,
+   "result": "yes(kalshi)",
+   "pnl": 2.77
+  },
+  {
+   "time": "2026-11-05T11:59:28.244Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "reason": "no lock in window; P(up)=88%, spot +$23 vs strike, 0m32s left"
+  },
+  {
+   "time": "2026-11-05T11:45:43.449Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 0.44,
+   "contracts": 5,
+   "cost": 2.2,
+   "fee": 0.09,
+   "result": "yes(kalshi)",
+   "pnl": -2.29
+  },
+  {
+   "time": "2026-11-05T11:45:43.282Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 0.44,
+   "contracts": 3,
+   "cost": 1.32,
+   "fee": 0.06,
+   "result": "yes(kalshi)",
+   "pnl": -1.38
+  },
+  {
+   "time": "2026-11-05T11:45:43.052Z",
+   "type": "SETTLE",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 0.44,
+   "contracts": 10,
+   "cost": 4.4,
+   "fee": 0.18,
+   "result": "yes(kalshi)",
+   "pnl": -4.58
+  },
+  {
+   "time": "2026-11-05T11:45:42.982Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 0.44,
+   "contracts": 9,
+   "cost": 3.96,
+   "fee": 0.16,
+   "result": "yes(kalshi)",
+   "pnl": -4.12
+  },
+  {
+   "time": "2026-11-05T11:45:22.403Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "yes",
+   "price": 52,
+   "contracts": 4,
+   "cost": 2.08,
+   "fee": 0.07,
+   "reason": "chart P(up)=51%, 15m +$41, bots 71% YES [Mo:YES(60%) Tr:NO(25%)] -> YES 57% conf",
+   "strike": 80265.84,
+   "close": "2026-11-05T12:00:00Z",
+   "spot": 80268.045
+  },
+  {
+   "time": "2026-11-05T11:45:22.403Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "reason": "crowd balanced"
+  },
+  {
+   "time": "2026-11-05T11:45:22.403Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "no",
+   "price": 49,
+   "contracts": 2,
+   "cost": 0.98,
+   "fee": 0.04,
+   "reason": "1h trend -$11",
+   "strike": 80265.84,
+   "close": "2026-11-05T12:00:00Z",
+   "spot": 80268.045
+  },
+  {
+   "time": "2026-11-05T11:45:22.403Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "reason": "no edge: P(up)=51%, yes 52c/no 49c"
+  },
+  {
+   "time": "2026-11-05T11:45:22.403Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "reason": "near 60m mean"
+  },
+  {
+   "time": "2026-11-05T11:45:22.402Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050700-00",
+   "side": "yes",
+   "price": 52,
+   "contracts": 6,
+   "cost": 3.12,
+   "fee": 0.11,
+   "reason": "5m move +$26",
+   "strike": 80265.84,
+   "close": "2026-11-05T12:00:00Z",
+   "spot": 80268.045
+  },
+  {
+   "time": "2026-11-05T11:42:18.144Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "reason": "no lock in window; P(up)=93%, spot +$65 vs strike, 2m42s left"
+  },
+  {
+   "time": "2026-11-05T11:30:34.992Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 44,
+   "contracts": 5,
+   "cost": 2.2,
+   "fee": 0.09,
+   "reason": "chart P(up)=51%, 15m -$17, bots 0% YES [Mo:NO(60%) Pr:NO(43%) Tr:NO(25%)] -> NO 65% conf",
+   "strike": 80181.52,
+   "close": "2026-11-05T11:45:00Z",
+   "spot": 80183.815
+  },
+  {
+   "time": "2026-11-05T11:30:34.992Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "reason": "crowd balanced"
+  },
+  {
+   "time": "2026-11-05T11:30:34.992Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 44,
+   "contracts": 3,
+   "cost": 1.32,
+   "fee": 0.06,
+   "reason": "1h trend -$237",
+   "strike": 80181.52,
+   "close": "2026-11-05T11:45:00Z",
+   "spot": 80183.815
+  },
+  {
+   "time": "2026-11-05T11:30:34.991Z",
+   "type": "BUY",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 44,
+   "contracts": 10,
+   "cost": 4.4,
+   "fee": 0.18,
+   "reason": "model P(down)=49% vs ask 44c",
+   "strike": 80181.52,
+   "close": "2026-11-05T11:45:00Z",
+   "spot": 80183.815
+  },
+  {
+   "time": "2026-11-05T11:30:34.991Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "reason": "near 60m mean"
+  },
+  {
+   "time": "2026-11-05T11:30:34.991Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050645-45",
+   "side": "no",
+   "price": 44,
+   "contracts": 9,
+   "cost": 3.96,
+   "fee": 0.16,
+   "reason": "5m move -$51",
+   "strike": 80181.52,
+   "close": "2026-11-05T11:45:00Z",
+   "spot": 80183.815
+  },
+  {
+   "time": "2026-11-05T11:30:34.991Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "yes",
+   "price": 0.49,
+   "contracts": 5,
+   "cost": 2.45,
+   "fee": 0.09,
+   "result": "no(kalshi)",
+   "pnl": -2.54
+  },
+  {
+   "time": "2026-11-05T11:30:34.888Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "no",
+   "price": 0.52,
+   "contracts": 2,
+   "cost": 1.04,
+   "fee": 0.04,
+   "result": "no(kalshi)",
+   "pnl": 0.92
+  },
+  {
+   "time": "2026-11-05T11:30:34.803Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "yes",
+   "price": 0.49,
+   "contracts": 9,
+   "cost": 4.41,
+   "fee": 0.16,
+   "result": "no(kalshi)",
+   "pnl": -4.57
+  },
+  {
+   "time": "2026-11-05T11:27:07.221Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "reason": "no lock in window; P(up)=62%, spot +$14 vs strike, 2m53s left"
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "yes",
+   "price": 49,
+   "contracts": 5,
+   "cost": 2.45,
+   "fee": 0.09,
+   "reason": "chart P(up)=48%, 15m +$36, bots 75% YES [Mo:YES(63%) Tr:NO(21%)] -> YES 57% conf",
+   "strike": 80227.78,
+   "close": "2026-11-05T11:30:00Z",
+   "spot": 80223.505
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "reason": "crowd balanced"
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "no",
+   "price": 52,
+   "contracts": 2,
+   "cost": 1.04,
+   "fee": 0.04,
+   "reason": "1h trend -$142",
+   "strike": 80227.78,
+   "close": "2026-11-05T11:30:00Z",
+   "spot": 80223.505
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "reason": "no edge: P(up)=48%, yes 49c/no 52c"
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "SKIP",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "reason": "near 60m mean"
+  },
+  {
+   "time": "2026-11-05T11:15:46.104Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050630-30",
+   "side": "yes",
+   "price": 49,
+   "contracts": 9,
+   "cost": 4.41,
+   "fee": 0.16,
+   "reason": "5m move +$62",
+   "strike": 80227.78,
+   "close": "2026-11-05T11:30:00Z",
+   "spot": 80223.505
+  },
+  {
+   "time": "2026-11-05T11:15:25.526Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050615-15",
+   "reason": "no lock in window; P(up)=99%, spot +$49 vs strike, -1m-26s left"
+  },
+  {
+   "time": "2026-11-05T11:15:25.525Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 0.33,
+   "contracts": 9,
+   "cost": 2.97,
+   "fee": 0.14,
+   "result": "no(kalshi)",
+   "pnl": -3.11
+  },
+  {
+   "time": "2026-11-05T11:15:25.401Z",
+   "type": "SETTLE",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 0.33,
+   "contracts": 10,
+   "cost": 3.3,
+   "fee": 0.16,
+   "result": "no(kalshi)",
+   "pnl": -3.46
+  },
+  {
+   "time": "2026-11-05T11:15:25.174Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 0.33,
+   "contracts": 5,
+   "cost": 1.65,
+   "fee": 0.08,
+   "result": "no(kalshi)",
+   "pnl": -1.73
+  },
+  {
+   "time": "2026-11-05T11:15:25.050Z",
+   "type": "SETTLE",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 0.33,
+   "contracts": 15,
+   "cost": 4.95,
+   "fee": 0.24,
+   "result": "no(kalshi)",
+   "pnl": -5.19
+  },
+  {
+   "time": "2026-11-05T11:15:24.943Z",
+   "type": "SETTLE",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 0.33,
+   "contracts": 16,
+   "cost": 5.28,
+   "fee": 0.25,
+   "result": "no(kalshi)",
+   "pnl": -5.53
+  },
+  {
+   "time": "2026-11-05T11:15:24.813Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "no",
+   "price": 0.68,
+   "contracts": 6,
+   "cost": 4.08,
+   "fee": 0.1,
+   "result": "no(kalshi)",
+   "pnl": 1.82
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 33,
+   "contracts": 9,
+   "cost": 2.97,
+   "fee": 0.14,
+   "reason": "chart P(up)=42%, 15m -$55, bots 72% YES [Mo:NO(61%) Me:YES(57%) Pr:YES(50%) Tr:YES(22%) Co:YES(30%)] -> YES 52% conf",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 33,
+   "contracts": 10,
+   "cost": 3.3,
+   "fee": 0.16,
+   "reason": "crowd heavy NO, fade",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 33,
+   "contracts": 5,
+   "cost": 1.65,
+   "fee": 0.08,
+   "reason": "1h trend +$5",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 33,
+   "contracts": 15,
+   "cost": 4.95,
+   "fee": 0.24,
+   "reason": "model P(up)=42% vs ask 33c",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "yes",
+   "price": 33,
+   "contracts": 16,
+   "cost": 5.28,
+   "fee": 0.25,
+   "reason": "spot $91 below 60m SMA",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.959Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050600-00",
+   "side": "no",
+   "price": 68,
+   "contracts": 6,
+   "cost": 4.08,
+   "fee": 0.1,
+   "reason": "5m move -$42",
+   "strike": 80254.55,
+   "close": "2026-11-05T11:00:00Z",
+   "spot": 80237.005
+  },
+  {
+   "time": "2026-11-05T10:47:34.958Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 0.48,
+   "contracts": 6,
+   "cost": 2.88,
+   "fee": 0.11,
+   "result": "no(kalshi)",
+   "pnl": -2.99
+  },
+  {
+   "time": "2026-11-05T10:47:34.875Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 0.48,
+   "contracts": 3,
+   "cost": 1.44,
+   "fee": 0.06,
+   "result": "no(kalshi)",
+   "pnl": -1.5
+  },
+  {
+   "time": "2026-11-05T10:47:34.767Z",
+   "type": "SETTLE",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "no",
+   "price": 0.53,
+   "contracts": 9,
+   "cost": 4.77,
+   "fee": 0.16,
+   "result": "no(kalshi)",
+   "pnl": 4.07
+  },
+  {
+   "time": "2026-11-05T10:47:34.684Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 0.48,
+   "contracts": 9,
+   "cost": 4.32,
+   "fee": 0.16,
+   "result": "no(kalshi)",
+   "pnl": -4.48
+  },
+  {
+   "time": "2026-11-05T10:42:06.466Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "reason": "no lock in window; P(up)=0%, spot -$143 vs strike, 2m54s left"
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "BUY",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 48,
+   "contracts": 6,
+   "cost": 2.88,
+   "fee": 0.11,
+   "reason": "chart P(up)=51%, 15m +$56, bots 62% YES [Mo:YES(65%) Me:NO(54%) Tr:YES(24%)] -> YES 55% conf",
+   "strike": 80419.18,
+   "close": "2026-11-05T10:45:00Z",
+   "spot": 80421.565
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "SKIP",
+   "agent": "Contrarian",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "reason": "crowd balanced"
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "BUY",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 48,
+   "contracts": 3,
+   "cost": 1.44,
+   "fee": 0.06,
+   "reason": "1h trend +$172",
+   "strike": 80419.18,
+   "close": "2026-11-05T10:45:00Z",
+   "spot": 80421.565
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "SKIP",
+   "agent": "PriceEdge",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "reason": "no edge: P(up)=51%, yes 48c/no 53c"
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "BUY",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "no",
+   "price": 53,
+   "contracts": 9,
+   "cost": 4.77,
+   "fee": 0.16,
+   "reason": "spot $110 above 60m SMA",
+   "strike": 80419.18,
+   "close": "2026-11-05T10:45:00Z",
+   "spot": 80421.565
+  },
+  {
+   "time": "2026-11-05T10:30:23.673Z",
+   "type": "BUY",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050545-45",
+   "side": "yes",
+   "price": 48,
+   "contracts": 9,
+   "cost": 4.32,
+   "fee": 0.16,
+   "reason": "5m move +$63",
+   "strike": 80419.18,
+   "close": "2026-11-05T10:45:00Z",
+   "spot": 80421.565
+  },
+  {
+   "time": "2026-11-05T10:28:00.476Z",
+   "type": "SKIP",
+   "agent": "Lock",
+   "ticker": "KXBTC15M-26NOV050530-30",
+   "reason": "no lock in window; P(up)=100%, spot +$83 vs strike, 1m60s left"
+  },
   {
    "time": "2026-11-05T08:15:12.554Z",
    "type": "SETTLE",
@@ -2133,534 +3607,1139 @@
   }
  ],
  "market": {
-  "ticker": "KXBTC15M-26NOV050300-00",
-  "strike": 80349.96,
-  "close": "2026-11-05T08:00:00Z",
-  "open": "2026-11-05T07:45:00Z",
-  "yes_bid": 0,
-  "yes_ask": 0.001,
-  "no_bid": 0.999,
-  "no_ask": 1,
+  "ticker": "KXBTC15M-26NOV051045-45",
+  "strike": 76338.76,
+  "close": "2026-11-05T15:45:00Z",
+  "open": "2026-11-05T15:30:00Z",
+  "yes_bid": 0.56,
+  "yes_ask": 0.57,
+  "no_bid": 0.43,
+  "no_ask": 0.44,
   "orderbook_ok": true,
   "ob": {
    "no_dollars": [
     [
      "0.0010",
-     "213.00"
+     "598904.00"
     ],
     [
      "0.0020",
-     "1.00"
+     "185773.00"
     ],
     [
      "0.0030",
-     "4002.01"
+     "29769.89"
     ],
     [
      "0.0040",
-     "1.00"
+     "13660.00"
+    ],
+    [
+     "0.0050",
+     "24049.24"
+    ],
+    [
+     "0.0060",
+     "11670.66"
+    ],
+    [
+     "0.0070",
+     "9056.00"
+    ],
+    [
+     "0.0080",
+     "3048.22"
+    ],
+    [
+     "0.0090",
+     "1483.00"
     ],
     [
      "0.0100",
-     "15490.87"
+     "15323.08"
     ],
     [
      "0.0110",
-     "2518.00"
+     "3961.00"
     ],
     [
      "0.0120",
-     "2511.00"
+     "25144.22"
     ],
     [
      "0.0130",
-     "10.00"
+     "1376.00"
     ],
     [
      "0.0140",
-     "9.00"
+     "2362.00"
     ],
     [
      "0.0150",
-     "9.00"
+     "2916.00"
     ],
     [
      "0.0160",
-     "62.00"
+     "2299.00"
     ],
     [
      "0.0170",
-     "58.00"
+     "1267.00"
     ],
     [
      "0.0180",
-     "55.00"
+     "2254.00"
+    ],
+    [
+     "0.0190",
+     "1225.00"
     ],
     [
      "0.0200",
-     "1724.81"
+     "5123.69"
     ],
     [
      "0.0210",
-     "58.00"
+     "8286.00"
     ],
     [
      "0.0220",
-     "10.00"
+     "2184.00"
     ],
     [
      "0.0230",
-     "16.00"
+     "672.00"
     ],
     [
      "0.0240",
-     "33.00"
+     "1683.38"
     ],
     [
      "0.0250",
-     "13.00"
+     "1845.00"
     ],
     [
      "0.0260",
-     "18.00"
+     "1642.00"
     ],
     [
      "0.0270",
-     "21.00"
+     "621.00"
     ],
     [
      "0.0280",
-     "21.00"
+     "1620.00"
     ],
     [
      "0.0290",
-     "21.00"
+     "600.00"
     ],
     [
      "0.0300",
-     "1561.68"
+     "4612.03"
     ],
     [
      "0.0310",
-     "20.00"
+     "881.00"
     ],
     [
      "0.0320",
-     "20.00"
+     "1582.00"
     ],
     [
      "0.0330",
-     "20.00"
+     "564.00"
     ],
     [
      "0.0340",
-     "20.00"
+     "1567.00"
     ],
     [
      "0.0350",
-     "20.00"
+     "1194.42"
     ],
     [
      "0.0360",
-     "16.00"
+     "1550.00"
     ],
     [
      "0.0370",
-     "16.00"
+     "1919.60"
     ],
     [
      "0.0380",
-     "18.00"
+     "1537.00"
     ],
     [
      "0.0390",
-     "18.00"
+     "521.00"
     ],
     [
      "0.0400",
-     "775.78"
+     "3842.40"
     ],
     [
      "0.0410",
-     "22.00"
+     "3931.00"
     ],
     [
      "0.0420",
-     "22.00"
+     "1512.00"
     ],
     [
      "0.0430",
-     "22.00"
+     "497.00"
     ],
     [
      "0.0440",
-     "22.00"
+     "1502.00"
     ],
     [
      "0.0450",
-     "22.00"
+     "987.00"
+    ],
+    [
+     "0.0460",
+     "1491.00"
+    ],
+    [
+     "0.0470",
+     "477.00"
+    ],
+    [
+     "0.0480",
+     "1481.00"
+    ],
+    [
+     "0.0490",
+     "468.00"
     ],
     [
      "0.0500",
-     "705.81"
+     "3424.63"
+    ],
+    [
+     "0.0510",
+     "509.00"
+    ],
+    [
+     "0.0520",
+     "3926.00"
+    ],
+    [
+     "0.0530",
+     "451.00"
+    ],
+    [
+     "0.0540",
+     "1457.00"
+    ],
+    [
+     "0.0550",
+     "852.00"
+    ],
+    [
+     "0.0560",
+     "1448.00"
+    ],
+    [
+     "0.0570",
+     "436.00"
+    ],
+    [
+     "0.0580",
+     "1441.00"
+    ],
+    [
+     "0.0590",
+     "429.00"
     ],
     [
      "0.0600",
-     "704.35"
+     "83278.11"
+    ],
+    [
+     "0.0610",
+     "1252.16"
+    ],
+    [
+     "0.0620",
+     "1428.00"
+    ],
+    [
+     "0.0630",
+     "26816.00"
+    ],
+    [
+     "0.0640",
+     "1423.00"
+    ],
+    [
+     "0.0650",
+     "756.00"
+    ],
+    [
+     "0.0660",
+     "1416.00"
     ],
     [
      "0.0670",
-     "11.00"
+     "404.00"
+    ],
+    [
+     "0.0680",
+     "1411.00"
+    ],
+    [
+     "0.0690",
+     "2179.53"
     ],
     [
      "0.0700",
-     "707.08"
+     "3221.58"
+    ],
+    [
+     "0.0710",
+     "394.00"
+    ],
+    [
+     "0.0720",
+     "1400.00"
+    ],
+    [
+     "0.0730",
+     "26789.00"
+    ],
+    [
+     "0.0740",
+     "1397.00"
+    ],
+    [
+     "0.0750",
+     "684.00"
+    ],
+    [
+     "0.0760",
+     "1391.00"
+    ],
+    [
+     "0.0770",
+     "380.00"
+    ],
+    [
+     "0.0780",
+     "1386.00"
+    ],
+    [
+     "0.0790",
+     "947.53"
     ],
     [
      "0.0800",
-     "670.86"
+     "3088.59"
+    ],
+    [
+     "0.0810",
+     "1952.00"
+    ],
+    [
+     "0.0820",
+     "1378.00"
+    ],
+    [
+     "0.0830",
+     "21367.00"
+    ],
+    [
+     "0.0840",
+     "1375.00"
+    ],
+    [
+     "0.0850",
+     "3368.00"
+    ],
+    [
+     "0.0860",
+     "1370.00"
+    ],
+    [
+     "0.0870",
+     "359.00"
+    ],
+    [
+     "0.0880",
+     "3366.00"
+    ],
+    [
+     "0.0890",
+     "356.00"
     ],
     [
      "0.0900",
-     "565.27"
+     "6082.55"
+    ],
+    [
+     "0.0910",
+     "352.00"
+    ],
+    [
+     "0.0920",
+     "1359.00"
+    ],
+    [
+     "0.0930",
+     "21349.00"
+    ],
+    [
+     "0.0940",
+     "2969.88"
+    ],
+    [
+     "0.0950",
+     "3121.00"
+    ],
+    [
+     "0.0960",
+     "1353.00"
+    ],
+    [
+     "0.0970",
+     "342.00"
+    ],
+    [
+     "0.0980",
+     "1350.00"
+    ],
+    [
+     "0.0990",
+     "1839.00"
     ],
     [
      "0.1000",
-     "743.30"
+     "25925.06"
     ],
     [
      "0.1100",
-     "1603.58"
+     "23001.72"
     ],
     [
      "0.1200",
-     "2814.98"
+     "25867.82"
     ],
     [
      "0.1300",
-     "1102.62"
+     "22499.45"
     ],
     [
      "0.1400",
-     "537.55"
+     "22739.43"
     ],
     [
      "0.1500",
-     "500.00"
+     "5588.92"
     ],
     [
      "0.1600",
-     "510.30"
+     "7973.08"
     ],
     [
      "0.1700",
-     "500.00"
+     "4043.82"
     ],
     [
      "0.1800",
-     "534.86"
+     "19894.16"
     ],
     [
      "0.1900",
-     "588.69"
+     "3742.83"
     ],
     [
      "0.2000",
-     "543.35"
+     "4108.35"
     ],
     [
      "0.2100",
-     "50.87"
+     "3665.91"
     ],
     [
      "0.2200",
-     "28.79"
+     "10128.54"
     ],
     [
      "0.2300",
-     "1253.74"
+     "1411.08"
+    ]
+   ],
+   "yes_dollars": [
+    [
+     "0.0010",
+     "527345.00"
+    ],
+    [
+     "0.0020",
+     "193418.00"
+    ],
+    [
+     "0.0030",
+     "27542.88"
+    ],
+    [
+     "0.0040",
+     "13500.00"
+    ],
+    [
+     "0.0050",
+     "20121.24"
+    ],
+    [
+     "0.0060",
+     "12050.66"
+    ],
+    [
+     "0.0070",
+     "12210.00"
+    ],
+    [
+     "0.0080",
+     "3050.22"
+    ],
+    [
+     "0.0090",
+     "1485.00"
+    ],
+    [
+     "0.0100",
+     "59178.40"
+    ],
+    [
+     "0.0110",
+     "3970.00"
+    ],
+    [
+     "0.0120",
+     "28354.22"
+    ],
+    [
+     "0.0130",
+     "1386.00"
+    ],
+    [
+     "0.0140",
+     "2363.00"
+    ],
+    [
+     "0.0150",
+     "30620.00"
+    ],
+    [
+     "0.0160",
+     "2361.00"
+    ],
+    [
+     "0.0170",
+     "2736.00"
+    ],
+    [
+     "0.0180",
+     "2309.00"
+    ],
+    [
+     "0.0190",
+     "1225.00"
+    ],
+    [
+     "0.0200",
+     "26951.97"
+    ],
+    [
+     "0.0210",
+     "2248.00"
+    ],
+    [
+     "0.0220",
+     "3283.00"
+    ],
+    [
+     "0.0230",
+     "688.00"
+    ],
+    [
+     "0.0240",
+     "1708.00"
+    ],
+    [
+     "0.0250",
+     "1358.00"
+    ],
+    [
+     "0.0260",
+     "1660.00"
+    ],
+    [
+     "0.0270",
+     "1530.00"
+    ],
+    [
+     "0.0280",
+     "1641.00"
+    ],
+    [
+     "0.0290",
+     "621.00"
+    ],
+    [
+     "0.0300",
+     "18876.16"
+    ],
+    [
+     "0.0310",
+     "901.00"
+    ],
+    [
+     "0.0320",
+     "2352.00"
+    ],
+    [
+     "0.0330",
+     "584.00"
+    ],
+    [
+     "0.0340",
+     "1589.00"
+    ],
+    [
+     "0.0350",
+     "569.00"
+    ],
+    [
+     "0.0360",
+     "1566.00"
+    ],
+    [
+     "0.0370",
+     "2583.60"
+    ],
+    [
+     "0.0380",
+     "1555.00"
+    ],
+    [
+     "0.0390",
+     "539.00"
+    ],
+    [
+     "0.0400",
+     "13268.12"
+    ],
+    [
+     "0.0410",
+     "831.00"
+    ],
+    [
+     "0.0420",
+     "2105.00"
+    ],
+    [
+     "0.0430",
+     "519.00"
+    ],
+    [
+     "0.0440",
+     "1525.00"
+    ],
+    [
+     "0.0450",
+     "509.00"
+    ],
+    [
+     "0.0460",
+     "1491.00"
+    ],
+    [
+     "0.0470",
+     "987.00"
+    ],
+    [
+     "0.0480",
+     "1481.00"
+    ],
+    [
+     "0.0490",
+     "468.00"
+    ],
+    [
+     "0.0500",
+     "12914.35"
+    ],
+    [
+     "0.0510",
+     "509.00"
+    ],
+    [
+     "0.0520",
+     "1464.00"
+    ],
+    [
+     "0.0530",
+     "903.00"
+    ],
+    [
+     "0.0540",
+     "1457.00"
+    ],
+    [
+     "0.0550",
+     "443.00"
+    ],
+    [
+     "0.0560",
+     "1448.00"
+    ],
+    [
+     "0.0570",
+     "436.00"
+    ],
+    [
+     "0.0580",
+     "1441.00"
+    ],
+    [
+     "0.0590",
+     "835.00"
+    ],
+    [
+     "0.0600",
+     "89966.88"
+    ],
+    [
+     "0.0610",
+     "29312.50"
+    ],
+    [
+     "0.0620",
+     "1428.00"
+    ],
+    [
+     "0.0630",
+     "416.00"
+    ],
+    [
+     "0.0640",
+     "1423.00"
+    ],
+    [
+     "0.0650",
+     "779.00"
+    ],
+    [
+     "0.0660",
+     "1416.00"
+    ],
+    [
+     "0.0670",
+     "404.00"
+    ],
+    [
+     "0.0680",
+     "1411.00"
+    ],
+    [
+     "0.0690",
+     "5740.59"
+    ],
+    [
+     "0.0700",
+     "8267.36"
+    ],
+    [
+     "0.0710",
+     "732.00"
+    ],
+    [
+     "0.0720",
+     "1400.00"
+    ],
+    [
+     "0.0730",
+     "26789.00"
+    ],
+    [
+     "0.0740",
+     "1396.00"
+    ],
+    [
+     "0.0750",
+     "384.00"
+    ],
+    [
+     "0.0760",
+     "1391.00"
+    ],
+    [
+     "0.0770",
+     "691.00"
+    ],
+    [
+     "0.0780",
+     "1386.00"
+    ],
+    [
+     "0.0790",
+     "2092.60"
+    ],
+    [
+     "0.0800",
+     "10604.03"
+    ],
+    [
+     "0.0810",
+     "371.00"
+    ],
+    [
+     "0.0820",
+     "22378.00"
+    ],
+    [
+     "0.0830",
+     "656.00"
+    ],
+    [
+     "0.0840",
+     "1374.00"
+    ],
+    [
+     "0.0850",
+     "363.00"
+    ],
+    [
+     "0.0860",
+     "1370.00"
+    ],
+    [
+     "0.0870",
+     "359.00"
+    ],
+    [
+     "0.0880",
+     "1366.00"
+    ],
+    [
+     "0.0890",
+     "625.00"
+    ],
+    [
+     "0.0900",
+     "9914.84"
+    ],
+    [
+     "0.0910",
+     "352.00"
+    ],
+    [
+     "0.0920",
+     "1359.00"
+    ],
+    [
+     "0.0930",
+     "21349.00"
+    ],
+    [
+     "0.0940",
+     "6452.66"
+    ],
+    [
+     "0.0950",
+     "346.00"
+    ],
+    [
+     "0.0960",
+     "1353.00"
+    ],
+    [
+     "0.0970",
+     "342.00"
+    ],
+    [
+     "0.0980",
+     "1350.00"
+    ],
+    [
+     "0.0990",
+     "636.00"
+    ],
+    [
+     "0.1000",
+     "29387.65"
+    ],
+    [
+     "0.1100",
+     "19477.67"
+    ],
+    [
+     "0.1200",
+     "18117.87"
+    ],
+    [
+     "0.1300",
+     "18829.79"
+    ],
+    [
+     "0.1400",
+     "18150.39"
+    ],
+    [
+     "0.1500",
+     "18792.75"
+    ],
+    [
+     "0.1600",
+     "3383.57"
+    ],
+    [
+     "0.1700",
+     "11037.12"
+    ],
+    [
+     "0.1800",
+     "3185.58"
+    ],
+    [
+     "0.1900",
+     "10620.26"
+    ],
+    [
+     "0.2000",
+     "34797.80"
+    ],
+    [
+     "0.2100",
+     "9504.25"
+    ],
+    [
+     "0.2200",
+     "2488.60"
+    ],
+    [
+     "0.2300",
+     "4050.23"
     ],
     [
      "0.2400",
-     "444.41"
+     "2412.58"
     ],
     [
      "0.2500",
-     "704.92"
+     "11892.06"
     ],
     [
      "0.2600",
-     "3.13"
+     "2319.58"
     ],
     [
      "0.2700",
-     "86.16"
+     "2444.42"
     ],
     [
      "0.2800",
-     "1.00"
+     "2186.21"
     ],
     [
      "0.2900",
-     "19.25"
+     "2040.97"
     ],
     [
      "0.3000",
-     "853.59"
+     "2465.06"
     ],
     [
      "0.3100",
-     "112.42"
+     "2166.39"
     ],
     [
      "0.3200",
-     "160.00"
+     "1968.45"
     ],
     [
      "0.3300",
-     "57.28"
+     "2285.50"
     ],
     [
      "0.3400",
-     "109.34"
+     "1911.91"
     ],
     [
      "0.3500",
-     "484.89"
+     "1981.24"
     ],
     [
      "0.3600",
-     "9.94"
+     "1849.45"
     ],
     [
      "0.3700",
-     "0.04"
+     "5123.35"
     ],
     [
      "0.3800",
-     "2234.71"
+     "1979.26"
     ],
     [
      "0.3900",
-     "5.01"
+     "1590.28"
     ],
     [
      "0.4000",
-     "1131.90"
+     "2747.37"
     ],
     [
      "0.4100",
-     "642.85"
+     "1780.04"
     ],
     [
      "0.4200",
-     "132.12"
+     "1583.87"
     ],
     [
      "0.4300",
-     "776.29"
+     "2439.32"
     ],
     [
      "0.4400",
-     "15.58"
+     "2238.00"
     ],
     [
      "0.4500",
-     "664.00"
+     "2738.09"
+    ],
+    [
+     "0.4600",
+     "2827.45"
     ],
     [
      "0.4700",
-     "41.00"
+     "3947.46"
     ],
     [
      "0.4800",
-     "290.59"
+     "2709.56"
     ],
     [
      "0.4900",
-     "10.00"
+     "2688.24"
     ],
     [
      "0.5000",
-     "118.63"
+     "4102.43"
+    ],
+    [
+     "0.5100",
+     "2701.89"
+    ],
+    [
+     "0.5200",
+     "26677.68"
+    ],
+    [
+     "0.5300",
+     "2609.43"
+    ],
+    [
+     "0.5400",
+     "2657.54"
     ],
     [
      "0.5500",
-     "687.03"
+     "3588.71"
     ],
     [
      "0.5600",
-     "449.35"
+     "2647.18"
     ],
     [
      "0.5700",
-     "22.57"
+     "4536.71"
+    ],
+    [
+     "0.5800",
+     "6821.27"
     ],
     [
      "0.5900",
-     "1106.91"
+     "2316.40"
     ],
     [
      "0.6000",
-     "688.85"
+     "2030.71"
+    ],
+    [
+     "0.6100",
+     "2154.66"
+    ],
+    [
+     "0.6200",
+     "4482.16"
+    ],
+    [
+     "0.6300",
+     "2406.27"
+    ],
+    [
+     "0.6400",
+     "2518.46"
+    ],
+    [
+     "0.6500",
+     "3755.68"
+    ],
+    [
+     "0.6600",
+     "1916.86"
+    ],
+    [
+     "0.6700",
+     "3569.41"
     ],
     [
      "0.6800",
-     "52.19"
+     "1844.18"
+    ],
+    [
+     "0.6900",
+     "2345.77"
     ],
     [
      "0.7000",
-     "1000.00"
+     "1329.31"
     ],
     [
      "0.7100",
-     "5.84"
+     "20691.40"
+    ],
+    [
+     "0.7200",
+     "1300.90"
     ],
     [
      "0.7300",
-     "2.00"
+     "3992.90"
+    ],
+    [
+     "0.7400",
+     "10255.12"
     ],
     [
      "0.7500",
-     "1114.12"
+     "13903.22"
     ],
     [
-     "0.7800",
-     "12.50"
-    ],
-    [
-     "0.7900",
-     "147.01"
-    ],
-    [
-     "0.8000",
-     "100.00"
-    ],
-    [
-     "0.8100",
-     "3614.99"
-    ],
-    [
-     "0.8200",
-     "180.00"
-    ],
-    [
-     "0.8300",
-     "100.00"
-    ],
-    [
-     "0.8400",
-     "100.00"
-    ],
-    [
-     "0.8500",
-     "1032.69"
-    ],
-    [
-     "0.8600",
-     "177.94"
-    ],
-    [
-     "0.8700",
-     "100.00"
-    ],
-    [
-     "0.8800",
-     "120.00"
-    ],
-    [
-     "0.8900",
-     "100.00"
-    ],
-    [
-     "0.9000",
-     "230.01"
-    ],
-    [
-     "0.9010",
-     "550.00"
-    ],
-    [
-     "0.9100",
-     "128.54"
-    ],
-    [
-     "0.9200",
-     "100.00"
-    ],
-    [
-     "0.9240",
-     "10.00"
-    ],
-    [
-     "0.9300",
-     "100.00"
-    ],
-    [
-     "0.9400",
-     "100.00"
-    ],
-    [
-     "0.9500",
-     "100.00"
-    ],
-    [
-     "0.9600",
-     "392.36"
-    ],
-    [
-     "0.9610",
-     "111.00"
-    ],
-    [
-     "0.9700",
-     "12541.43"
-    ],
-    [
-     "0.9800",
-     "100.00"
-    ],
-    [
-     "0.9880",
-     "500.00"
-    ],
-    [
-     "0.9890",
-     "1.00"
-    ],
-    [
-     "0.9900",
-     "101.10"
-    ],
-    [
-     "0.9910",
-     "1.00"
-    ],
-    [
-     "0.9950",
-     "0.64"
-    ],
-    [
-     "0.9960",
-     "4.20"
-    ],
-    [
-     "0.9970",
-     "205.95"
-    ],
-    [
-     "0.9980",
-     "5197.00"
-    ],
-    [
-     "0.9990",
-     "369625.94"
+     "0.7600",
+     "3162.45"
     ]
-   ],
-   "yes_dollars": []
+   ]
   }
  },
- "spot": 80472.225,
+ "spot": 76362.075,
  "decided": {
   "KXBTC15M-26NOV032330-30": 1,
   "KXBTC15M-26NOV032345-45": 1,
@@ -2676,29 +4755,48 @@
   "KXBTC15M-26NOV050215-15": 1,
   "KXBTC15M-26NOV050230-30": 1,
   "KXBTC15M-26NOV050245-45": 1,
-  "KXBTC15M-26NOV050300-00": 1
+  "KXBTC15M-26NOV050300-00": 1,
+  "KXBTC15M-26NOV050545-45": 1,
+  "KXBTC15M-26NOV050600-00": 1,
+  "KXBTC15M-26NOV050630-30": 1,
+  "KXBTC15M-26NOV050645-45": 1,
+  "KXBTC15M-26NOV050700-00": 1,
+  "KXBTC15M-26NOV050715-15": 1,
+  "KXBTC15M-26NOV050730-30": 1,
+  "KXBTC15M-26NOV050745-45": 1,
+  "KXBTC15M-26NOV050845-45": 1,
+  "KXBTC15M-26NOV050900-00": 1,
+  "KXBTC15M-26NOV051045-45": 1
  },
- "updated": "2026-11-05T08:23:14.391Z",
+ "updated": "2026-11-05T15:37:52.356Z",
  "model": {
-  "pUp": 0.42074462720337236,
-  "sigma1m": 0.00035114843754818233
+  "pUp": 0.6533233812800052,
+  "sigma1m": 0.0015600964927455208
  },
  "portfolio": {
   "start": 313.74,
-  "bankroll": 276.4,
-  "pnl": -37.34,
-  "open": 0
+  "bankroll": 249.35,
+  "pnl": -48.4,
+  "open": 5
  },
  "leader": {
-  "pUp": 0.3947201396886427,
-  "side": "no",
-  "conf": 0.6052798603113573,
-  "ticker": "KXBTC15M-26NOV050300-00"
+  "pUp": 0.61118270239065,
+  "side": "yes",
+  "conf": 0.61118270239065,
+  "ticker": "KXBTC15M-26NOV051045-45"
  },
  "lockDone": {
   "KXBTC15M-26NOV050215-15": 1,
   "KXBTC15M-26NOV050230-30": 1,
   "KXBTC15M-26NOV050245-45": 1,
-  "KXBTC15M-26NOV050300-00": 1
+  "KXBTC15M-26NOV050300-00": 1,
+  "KXBTC15M-26NOV050530-30": 1,
+  "KXBTC15M-26NOV050545-45": 1,
+  "KXBTC15M-26NOV050615-15": 1,
+  "KXBTC15M-26NOV050630-30": 1,
+  "KXBTC15M-26NOV050645-45": 1,
+  "KXBTC15M-26NOV050700-00": 1,
+  "KXBTC15M-26NOV050730-30": 1,
+  "KXBTC15M-26NOV050845-45": 1
  }
 }
