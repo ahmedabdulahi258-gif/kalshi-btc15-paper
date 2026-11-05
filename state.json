@@ -3,8 +3,8 @@
   "Momentum": {
    "bankroll": 47.17,
    "wins": 10,
-   "losses": 4,
-   "pnl": 7.28,
+   "losses": 5,
+   "pnl": 2.35,
    "last": {
     "ticker": "KXBTC15M-26NOV050300-00",
     "call": "BUY NO",
@@ -13,10 +13,10 @@
    }
   },
   "MeanReversion": {
-   "bankroll": 39.89,
-   "wins": 5,
+   "bankroll": 48.89,
+   "wins": 6,
    "losses": 5,
-   "pnl": -0.45,
+   "pnl": 4.07,
    "last": {
     "ticker": "KXBTC15M-26NOV050300-00",
     "call": "BUY YES",
@@ -39,8 +39,8 @@
   "Trend1h": {
    "bankroll": 18.11,
    "wins": 3,
-   "losses": 11,
-   "pnl": -25.06,
+   "losses": 12,
+   "pnl": -26.71,
    "last": {
     "ticker": "KXBTC15M-26NOV050300-00",
     "call": "BUY NO",
@@ -63,8 +63,8 @@
   "Leader": {
    "bankroll": 33.45,
    "wins": 6,
-   "losses": 5,
-   "pnl": -7.53,
+   "losses": 6,
+   "pnl": -11.37,
    "last": {
     "ticker": "KXBTC15M-26NOV050300-00",
     "call": "BUY NO",
@@ -75,8 +75,8 @@
   "Lock": {
    "bankroll": 41.27,
    "wins": 1,
-   "losses": 0,
-   "pnl": 0.19,
+   "losses": 1,
+   "pnl": -3.55,
    "last": {
     "ticker": "KXBTC15M-26NOV050300-00",
     "call": "BUY NO",
@@ -85,70 +85,11 @@
    }
   }
  },
- "open": [
+ "open": [],
+ "trades": [
   {
-   "time": "2026-11-05T07:45:59.604Z",
-   "type": "BUY",
-   "agent": "Momentum",
-   "ticker": "KXBTC15M-26NOV050300-00",
-   "side": "no",
-   "price": 0.53,
-   "contracts": 9,
-   "cost": 4.77,
-   "fee": 0.16,
-   "reason": "5m move -$18",
-   "strike": 80349.96,
-   "close": "2026-11-05T08:00:00Z",
-   "spot": 80328.845
-  },
-  {
-   "time": "2026-11-05T07:45:59.604Z",
-   "type": "BUY",
-   "agent": "MeanReversion",
-   "ticker": "KXBTC15M-26NOV050300-00",
-   "side": "yes",
-   "price": 0.48,
-   "contracts": 9,
-   "cost": 4.32,
-   "fee": 0.16,
-   "reason": "spot $186 below 60m SMA",
-   "strike": 80349.96,
-   "close": "2026-11-05T08:00:00Z",
-   "spot": 80328.845
-  },
-  {
-   "time": "2026-11-05T07:45:59.604Z",
-   "type": "BUY",
-   "agent": "Trend1h",
-   "ticker": "KXBTC15M-26NOV050300-00",
-   "side": "no",
-   "price": 0.53,
-   "contracts": 3,
-   "cost": 1.59,
-   "fee": 0.06,
-   "reason": "1h trend -$65",
-   "strike": 80349.96,
-   "close": "2026-11-05T08:00:00Z",
-   "spot": 80328.845
-  },
-  {
-   "time": "2026-11-05T07:45:59.604Z",
-   "type": "BUY",
-   "agent": "Leader",
-   "ticker": "KXBTC15M-26NOV050300-00",
-   "side": "no",
-   "price": 0.53,
-   "contracts": 7,
-   "cost": 3.71,
-   "fee": 0.13,
-   "reason": "chart P(up)=42%, 15m -$202, bots 35% YES [Mo:NO(69%) Me:YES(50%) Tr:NO(25%)] -> NO 61% conf",
-   "strike": 80349.96,
-   "close": "2026-11-05T08:00:00Z",
-   "spot": 80328.845
-  },
-  {
-   "time": "2026-11-05T07:56:53.682Z",
-   "type": "BUY",
+   "time": "2026-11-05T08:15:12.554Z",
+   "type": "SETTLE",
    "agent": "Lock",
    "ticker": "KXBTC15M-26NOV050300-00",
    "side": "no",
@@ -156,13 +97,61 @@
    "contracts": 4,
    "cost": 3.72,
    "fee": 0.02,
-   "reason": "LOCK NO: P(up)=1%, spot -$121 vs strike, 3m6s left, ask 93c",
-   "strike": 80349.96,
-   "close": "2026-11-05T08:00:00Z",
-   "spot": 80228.69
-  }
- ],
- "trades": [
+   "result": "yes(spot-fallback)",
+   "pnl": -3.74
+  },
+  {
+   "time": "2026-11-05T08:15:12.465Z",
+   "type": "SETTLE",
+   "agent": "Leader",
+   "ticker": "KXBTC15M-26NOV050300-00",
+   "side": "no",
+   "price": 0.53,
+   "contracts": 7,
+   "cost": 3.71,
+   "fee": 0.13,
+   "result": "yes(spot-fallback)",
+   "pnl": -3.84
+  },
+  {
+   "time": "2026-11-05T08:15:12.362Z",
+   "type": "SETTLE",
+   "agent": "Trend1h",
+   "ticker": "KXBTC15M-26NOV050300-00",
+   "side": "no",
+   "price": 0.53,
+   "contracts": 3,
+   "cost": 1.59,
+   "fee": 0.06,
+   "result": "yes(spot-fallback)",
+   "pnl": -1.65
+  },
+  {
+   "time": "2026-11-05T08:15:12.274Z",
+   "type": "SETTLE",
+   "agent": "MeanReversion",
+   "ticker": "KXBTC15M-26NOV050300-00",
+   "side": "yes",
+   "price": 0.48,
+   "contracts": 9,
+   "cost": 4.32,
+   "fee": 0.16,
+   "result": "yes(spot-fallback)",
+   "pnl": 4.52
+  },
+  {
+   "time": "2026-11-05T08:15:12.169Z",
+   "type": "SETTLE",
+   "agent": "Momentum",
+   "ticker": "KXBTC15M-26NOV050300-00",
+   "side": "no",
+   "price": 0.53,
+   "contracts": 9,
+   "cost": 4.77,
+   "fee": 0.16,
+   "result": "yes(spot-fallback)",
+   "pnl": -4.93
+  },
   {
    "time": "2026-11-05T07:56:53.682Z",
    "type": "BUY",
@@ -2671,7 +2660,7 @@
    "yes_dollars": []
   }
  },
- "spot": 80353.535,
+ "spot": 80486.625,
  "decided": {
   "KXBTC15M-26NOV032330-30": 1,
   "KXBTC15M-26NOV032345-45": 1,
@@ -2689,16 +2678,16 @@
   "KXBTC15M-26NOV050245-45": 1,
   "KXBTC15M-26NOV050300-00": 1
  },
- "updated": "2026-11-05T08:06:02.496Z",
+ "updated": "2026-11-05T08:18:15.914Z",
  "model": {
   "pUp": 0.42074462720337236,
   "sigma1m": 0.00035114843754818233
  },
  "portfolio": {
   "start": 313.74,
-  "bankroll": 267.4,
-  "pnl": -27.7,
-  "open": 5
+  "bankroll": 276.4,
+  "pnl": -37.34,
+  "open": 0
  },
  "leader": {
   "pUp": 0.3947201396886427,
